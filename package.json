@@ -1,34 +1,82 @@
 {
-  "name": "Leetcode",
-  "main": "./lib/leetcode",
-  "version": "0.11.1",
-  "description": "Leetcode from Atom",
-  "keywords": [],
+  "_args": [
+    [
+      {
+        "raw": "C:\\Users\\Baboon\\AppData\\Local\\Temp\\d-117931-17292-b6kv2x.80xjxuhaor\\package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "C:\\Users\\Baboon\\AppData\\Local\\Temp\\d-117931-17292-b6kv2x.80xjxuhaor\\package.tgz",
+        "spec": "C:\\Users\\Baboon\\AppData\\Local\\Temp\\d-117931-17292-b6kv2x.80xjxuhaor\\package.tgz",
+        "type": "local"
+      },
+      "C:\\Users\\Baboon\\AppData\\Local\\Temp\\apm-install-dir-117931-17292-wt1jsy.ov460kvs4i"
+    ]
+  ],
+  "_from": "..\\d-117931-17292-b6kv2x.80xjxuhaor\\package.tgz",
+  "_id": "Leetcode@0.11.1",
+  "_inCache": true,
+  "_location": "/Leetcode",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "C:\\Users\\Baboon\\AppData\\Local\\Temp\\d-117931-17292-b6kv2x.80xjxuhaor\\package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "C:\\Users\\Baboon\\AppData\\Local\\Temp\\d-117931-17292-b6kv2x.80xjxuhaor\\package.tgz",
+    "spec": "C:\\Users\\Baboon\\AppData\\Local\\Temp\\d-117931-17292-b6kv2x.80xjxuhaor\\package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:..\\d-117931-17292-b6kv2x.80xjxuhaor\\package.tgz",
+  "_shasum": "2ec70db6702a32d8ec12f8f2d5f7f737ed28f9a8",
+  "_shrinkwrap": null,
+  "_spec": "C:\\Users\\Baboon\\AppData\\Local\\Temp\\d-117931-17292-b6kv2x.80xjxuhaor\\package.tgz",
+  "_where": "C:\\Users\\Baboon\\AppData\\Local\\Temp\\apm-install-dir-117931-17292-wt1jsy.ov460kvs4i",
   "activationCommands": {
     "atom-workspace": [
       "leetcode:easy",
       "leetcode:medium",
       "leetcode:hard",
       "leetcode:solutions",
-      "leetcode:search"
+      "leetcode:search",
+      "leetcode:submit"
     ]
   },
-  "repository": "https://github.com/Richard-Dang/AtomLeetCode",
-  "license": "MIT",
-  "engines": {
-    "atom": ">=1.0.0 <2.0.0"
+  "bugs": {
+    "url": "https://github.com/Richard-Dang/AtomLeetCode/issues"
   },
   "dependencies": {
     "async": "^2.5.0",
-    "cheerio": "^0.22.0",
-    "request": "^2.73.0",
     "atom-select-list": "^0.1.0",
-    "fuzzaldrin": "^2.1.0"
+    "cheerio": "^0.22.0",
+    "fuzzaldrin": "^2.1.0",
+    "request": "^2.73.0",
+    "xregexp": "^3.1.0"
   },
+  "description": "Leetcode from Atom",
   "devDependencies": {
     "auto-changelog": "^0.3.1"
   },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/Richard-Dang/AtomLeetCode#readme",
+  "keywords": [],
+  "license": "MIT",
+  "main": "./lib/leetcode",
+  "name": "Leetcode",
+  "optionalDependencies": {},
+  "readme": "# Atom Leetcode\n\n[![Build Status](https://travis-ci.org/Richard-Dang/AtomLeetCode.svg?branch=master)](https://travis-ci.org/Richard-Dang/AtomLeetCode)\n[![dependencies Status](https://david-dm.org/Richard-Dang/AtomLeetCode/status.svg)](https://david-dm.org/Richard-Dang/AtomLeetCode)\n[![devDependencies Status](https://david-dm.org/Richard-Dang/AtomLeetCode/dev-status.svg)](https://david-dm.org/Richard-Dang/AtomLeetCode?type=dev)\n\n[![Change Log](http://forthebadge.com/images/badges/built-with-love.svg)](https://atom.io/packages/leetcode)\n\n\n## Description\n\nAtom Leetcode is an atom package that gives programmers the ability to code Leetcode problems straight from their text editors. Users have the option to select the difficulty of the problem and the language they wish to code in.\n\n[Change Log](https://github.com/Richard-Dang/AtomLeetCode/blob/master/CHANGELOG.md)\n\n\n## Features\n\n- Automatically grab an easy, medium or hard question from Leetcode\n- Search for specific questions with autocomplete\n- Code the question straight from Atom\n- Autodetect current language\n- Certain examples with test cases will automatically be populated for testing\n- Obtain code solutions straight from the Leetcode community\n\n## Screenshots\n\n![Leetcode](http://richarddang.com/images/portfolio/atom-leetcode.gif)\n\n\n## Future Updates\n\n- Link to Leetcode for code submission\n\n## Credits\n\n[@AkibShahjahan](https://github.com/AkibShahjahan)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Richard-Dang/AtomLeetCode.git"
+  },
   "scripts": {
     "changelog": "auto-changelog --package --template compact; git add CHANGELOG.md"
-  }
+  },
+  "version": "0.11.1"
 }
